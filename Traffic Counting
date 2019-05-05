@@ -1,0 +1,6 @@
+is_color_prediction_enabled = 0 # set it to 1 for enabling the color prediction for the detected objects
+fps = 24 # change it with your input video fps
+width = 854 # change it with your input video width
+height = 480 # change it with your input vide height    
+
+object_counting_api.object_counting("Day Traffic Sample Video Dataset.mp4", detection_graph, category_index, is_color_recognition_enabled, fps, width, height) # counting all the objects
